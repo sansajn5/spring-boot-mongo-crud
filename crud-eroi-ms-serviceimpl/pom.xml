@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+	<groupId>it.tdgroup.eroi</groupId>
+	<artifactId>crud-eroi-ms</artifactId>
+	<version>1.0</version>
+    </parent>
+    
+    <artifactId>crud-eroi-ms-serviceimpl</artifactId>
+    <packaging>jar</packaging>
+    <name>Crud-Eroi-ms Module ServiceImpl</name>
+    <description>Crud-Eroi-ms ServiceImpl</description>
+
+    <properties> 
+        <relpath-to-parent>..</relpath-to-parent> 
+    </properties>   
+    <build>
+        <finalName>crud-eroi-ms-serviceimpl</finalName>
+    </build>
+    
+    <dependencies>
+
+    	<dependency>
+    	  <groupId>it.tdgroup.eroi</groupId>
+    	  <artifactId>crud-eroi-ms-dto</artifactId>
+        </dependency>
+
+    	<dependency>
+    	  <groupId>it.tdgroup.eroi</groupId>
+    	  <artifactId>crud-eroi-ms-service</artifactId>
+        </dependency>
+            
+        <dependency>
+    	  <groupId>it.tdgroup.eroi</groupId>
+    	  <artifactId>crud-eroi-ms-jpa-repository</artifactId>
+        </dependency>
+        
+        <dependency>
+    	  <groupId>it.tdgroup.eroi</groupId>
+    	  <artifactId>crud-eroi-ms-jpa-domain</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency>
+	</dependencies> 
+</project>

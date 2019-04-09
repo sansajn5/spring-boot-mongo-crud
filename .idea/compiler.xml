@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crud-eroi-ms-aop" />
+        <module name="crud-eroi-ms-dto" />
+        <module name="crud-eroi-ms-jpa-domain" />
+        <module name="crud-eroi-ms-jpa-repository" />
+        <module name="crud-eroi-ms-rest-api" />
+        <module name="crud-eroi-ms-security" />
+        <module name="crud-eroi-ms-service" />
+        <module name="crud-eroi-ms-serviceimpl" />
+        <module name="crud-eroi-ms-util" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crud-eroi-ms-aop" options="-parameters" />
+      <module name="crud-eroi-ms-dto" options="-parameters" />
+      <module name="crud-eroi-ms-jpa-domain" options="-parameters" />
+      <module name="crud-eroi-ms-jpa-repository" options="-parameters" />
+      <module name="crud-eroi-ms-rest-api" options="-parameters" />
+      <module name="crud-eroi-ms-security" options="-parameters" />
+      <module name="crud-eroi-ms-service" options="-parameters" />
+      <module name="crud-eroi-ms-serviceimpl" options="-parameters" />
+      <module name="crud-eroi-ms-util" options="-parameters" />
+    </option>
+  </component>
+</project>
